@@ -1,0 +1,15 @@
+{
+  "name": "yarn-test",
+  "packageManager": "yarn@3.2.2",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "yarn run ts-node src/app.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node16-strictest-esm": "^1.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
+
+
